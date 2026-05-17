@@ -16,6 +16,7 @@
 | 文档 | 说明 |
 |------|------|
 | [Foxpage Page MCP](skills-and-tools/foxpage-page-mcp.md) | 通过 MCP 协议创建/更新/发布 Foxpage 页面 |
+| [Build Airline Campaign Page](skills-and-tools/build-airline-campaign-page.md) | Skill：搭建航司活动页面的完整流程指南 |
 
 ## AI Cases 成果
 
