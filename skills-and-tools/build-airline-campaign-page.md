@@ -348,3 +348,25 @@ API 报错或字段不确定时，**立即暂停并告知用户具体错误**，
 
 - `campaign-page MCP`：`create_page`、`update_page`、`get_page_from_url`、`get_page_draft_data`、`publish_page`
 - `campaign-component 知识库`：组件完整 props 说明，仅在模板变量不足以覆盖需求时查询
+
+---
+
+## 请一定注意！
+
+机票和酒店的 `merchandiseSetting.schemaId` 类型不同：
+
+```javascript
+// 机票 — schemaId 为 number
+"merchandiseSetting": {
+  "sourceType": "pool",
+  "schemaId": 85436
+}
+
+// 酒店 — schemaId 为 string
+"merchandiseSetting": {
+  "sourceType": "pool",
+  "schemaId": "85450"
+}
+```
+
+请根据产线类型正确填写 foxpage 的选品池 poolId。

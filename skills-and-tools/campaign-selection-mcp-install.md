@@ -1,6 +1,6 @@
-# Campaign2.0 选品 MCP 文档
+# Campaign2.0 选品 MCP 使用文档
 
-## 一、安装说明
+## 一、安装
 
 安装 Campaign Selection MCP：在支持 MCP 的客户端中新增 MCP Server，传输方式必须是 streamable-http。
 
@@ -14,6 +14,16 @@
 接口名称：`upsertSelectionPoolForApi`
 
 详细入参说明请参考：[flight-upsert-selection-pool-agent-guide.md](./flight-upsert-selection-pool-agent-guide.md)
+
+### TNT 产线
+
+接口名称：`upsertTntSelectPool`
+
+接口传参说明：（参见飞书文档内嵌附件）
+
+### 酒店产线
+
+接口名称：`upsertHotelSelectionSchema`
 
 ### 酒店 & 机票选品池完整 Skill
 
